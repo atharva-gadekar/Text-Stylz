@@ -1,0 +1,61 @@
+#msgd{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#msg{
+    color: white;
+    padding: 2vw;
+    font-size: 2vw;
+    width: 60vw;
+    height: 50vh;
+    background-color: rgba(3, 13, 22, 0.795);
+    border: none;
+
+}
+
+#msg:focus{
+    outline: none;
+}
+
+#copyd{
+    position: absolute;
+    top: 32vh;
+    right: 15vw;
+}
+
+#copy{
+    width: 3vw;
+}
+
+#cpd{
+    display: none;
+    background-color: rgba(3, 13, 22, 0.932);
+    color: rgb(0, 202, 0);
+    padding: 0.7vw;
+    border-radius: 0.75vw;
+    font-size: 1.25vw;
+    position: absolute;
+    top: 32vh;
+    right: 1vw;
+}
+
+
+#typedd{
+    margin-top: 5vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.type{
+    width: 15vw;
+    color: white;
+    background-color: rgb(3, 13, 22);
+    font-size: 2vw;
+    padding: 0.5vw;
+    border-radius: 0.8vw;
+}
